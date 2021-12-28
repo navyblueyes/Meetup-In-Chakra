@@ -8,8 +8,8 @@
         - 
         
 ### Getting started
-- 
-    - 
+- Getting the basics
+    - ![](imgs/0101.jpg)
         - 
     - 
         - 

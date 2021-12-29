@@ -1,6 +1,18 @@
-import { Heading, Box, Button, Container, Text } from "@chakra-ui/react";
+import {
+  Heading,
+  Box,
+  Button,
+  Container,
+  Text,
+  Grid,
+  GridItem,
+  Image,
+} from "@chakra-ui/react";
 import SVGimg from "../assets/brandlogo.jsx";
 import Illustration from "../assets/illustration.jsx";
+import Cat1 from "../assets/category1.webp";
+import Cat2 from "../assets/category2.webp";
+import Cat3 from "../assets/category3.webp";
 
 function Banner() {
   return (
@@ -59,6 +71,24 @@ function Banner() {
           </Box>
         </Container>
       </Box>
+
+      {/* Main Punch Line */}
+      <Container maxW="container.x1" mt={10}>
+        <Grid templateColumns="repeat(3, 1fr)" gap={4}>
+          <Box>
+            Make new friends{" "}
+            <Image w="100%" borderRadius="lg" src={Cat1} alt="category one" />
+          </Box>
+          <Box>
+            Explore the outdoors{" "}
+            <Image w="100%" borderRadius="lg" src={Cat2} alt="category two" />
+          </Box>
+          <Box>
+            Connect over tech{" "}
+            <Image w="100%" borderRadius="lg" src={Cat3} alt="category three" />
+          </Box>
+        </Grid>
+      </Container>
     </>
   );
 }

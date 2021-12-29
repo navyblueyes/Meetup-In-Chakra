@@ -5,11 +5,11 @@ import {
   Container,
   Text,
   Grid,
-  GridItem,
   Image,
 } from "@chakra-ui/react";
 import SVGimg from "../assets/brandlogo.jsx";
 import Illustration from "../assets/illustration.jsx";
+import RightArrow from "../assets/right-arrow";
 import Cat1 from "../assets/category1.webp";
 import Cat2 from "../assets/category2.webp";
 import Cat3 from "../assets/category3.webp";
@@ -72,20 +72,35 @@ function Banner() {
         </Container>
       </Box>
 
-      {/* Main Punch Line */}
+      {/* Three Categories */}
       <Container maxW="container.x1" mt={10}>
         <Grid templateColumns="repeat(3, 1fr)" gap={4}>
           <Box>
-            Make new friends{" "}
             <Image w="100%" borderRadius="lg" src={Cat1} alt="category one" />
+            <Button colorScheme="teal" mt="5" variant="link">
+              Make new friends
+              <Box w="100%" ml="2">
+                <RightArrow />
+              </Box>
+            </Button>
           </Box>
           <Box>
-            Explore the outdoors{" "}
             <Image w="100%" borderRadius="lg" src={Cat2} alt="category two" />
+            <Button colorScheme="teal" mt="5" variant="link">
+              Explore the outdoors
+              <Box w="100%" ml="2">
+                <RightArrow />
+              </Box>
+            </Button>
           </Box>
           <Box>
-            Connect over tech{" "}
             <Image w="100%" borderRadius="lg" src={Cat3} alt="category three" />
+            <Button colorScheme="teal" mt="5" variant="link">
+              Connect over tech
+              <Box w="100%" ml="2">
+                <RightArrow />
+              </Box>
+            </Button>
           </Box>
         </Grid>
       </Container>

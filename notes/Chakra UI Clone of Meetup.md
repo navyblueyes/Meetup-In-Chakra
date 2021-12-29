@@ -22,7 +22,7 @@
         - After
             - ![](imgs/0106.jpg)
     - clear up the defaults
-        - 
+        - ![](imgs/0107.jpg)
             
 
 ### Look at example
@@ -46,7 +46,12 @@
         - ![](imgs/0304.jpg)
     - Add buttons to the end `Box`
         - ![](imgs/0305.jpg)
-    - 
-        - 
-        - 
+    - Import into App.js
+        - ![](imgs/0306.jpg)
+    - Getting `SVG` to work
+        - ![](imgs/0307.jpg)
+        - ![](imgs/0308.jpg)
+        - ![](imgs/0309.jpg)
+- Main Punch Line
+    - Utilize Box and Container
         - 
